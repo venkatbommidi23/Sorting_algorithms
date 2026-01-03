@@ -1,4 +1,6 @@
 #https://www.geeksforgeeks.org/problems/merge-sort/1
+# Divide array into halves
+# 👉 Sort and merge them
 
 class Solution:
  
