@@ -1,4 +1,6 @@
 #https://www.geeksforgeeks.org/problems/selection-sort/1
+# 👉 Find the smallest element
+# 👉 Place it in the correct position
 
 class Solution: 
     def selectionSort(self, arr):
