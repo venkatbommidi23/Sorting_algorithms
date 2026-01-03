@@ -1,6 +1,6 @@
 #https://www.geeksforgeeks.org/problems/insertion-sort/1
-# 👉 Find the smallest element
-# 👉 Place it in the correct position
+👉 Left part is already sorted
+👉 Insert current element into correct place
 
 class Solution:
     def insertionSort(self, arr,n=None):
