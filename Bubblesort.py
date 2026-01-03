@@ -1,4 +1,6 @@
 #https://www.geeksforgeeks.org/problems/bubble-sort/1
+# 👉 Compare adjacent elements and swap if wrong
+# 👉 Biggest element moves to the end in each pass
 
 class Solution:
     #Function to sort the array using bubble sort algorithm.
