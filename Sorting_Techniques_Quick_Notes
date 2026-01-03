@@ -1,0 +1,17 @@
+Bubble → Biggest goes last
+
+Selection → Pick minimum
+
+Insertion → Cards in hand
+
+Merge → Divide & merge
+
+Quick → Pivot based split
+
+
+Sort	    Best Time	  Avg Time	  Worst Time	Space	            Stable	   In-Place	 Best Use Case
+Bubble	  O(n)	      O(n²)	      O(n²)	      O(1)	             Yes	        Yes	    Nearly sorted
+Selection	O(n²)   	  O(n²)	      O(n²)	      O(1)	              No	        Yes	    Less swaps
+Insertion	O(n)	      O(n²)	      O(n²)	      O(1)	              Yes	        Yes	    Nearly sorted
+Merge	    O(n log n)	O(n log n)	O(n log n)	O(n)	              Yes	        No	    Large data
+Quick	    O(n log n)	O(n log n)	O(n²)	      O(log n)/worst-O(N)	 No	        Yes	    Fast average
