@@ -1,4 +1,18 @@
- #https://www.geeksforgeeks.org/problems/insertion-sort/1
+#https://www.geeksforgeeks.org/problems/insertion-sort/1
+
+#Insertion sort ante enti ante left part already sorted ani assume chesko 1st element ki Tarvatha left part elano sorted gane untadi
+#ipudu next element ni pick chesko,deni position ekkado insert cheyalo select chey daniki loops and conditions raayi
+
+# i loop second element nunchi start chesko enduku ante already 1st di sorted ani assume chesko
+# key emo current element "ith" index tisko,e element ni manam correct position lo pick petali
+# "j" emo "i" kanna mundu index nunchi start chey, loop until j >=0 and arr[j] > key:  mundu unna elements key kanna pedadhi ayithe avvi okay index right is shift cheyali 
+#j ni decrease cheyali.
+
+# last ki ekada ayithe e condition fail avutado akada "key" ni insert cheyali
+
+
+
+
 👉 Left part is already sorted
 👉 Insert current element into correct place
 
