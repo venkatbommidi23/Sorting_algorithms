@@ -27,12 +27,16 @@ class Solution:
     
     # Partition function (Lomuto partition scheme)
     
-    # We will choose last element as pivot and start from low element initial there
-    #is no low so take i=low-1,adjust code based on index 
-    #check any elements that are
-    # less than pivot and if less than pivot swap with the current index element
-    # that is less and at last swap the pivot with next index of the element
-    #that is smaller
+    # We will choose last element as pivot and start from low element initial there is no low so take i=low-1
+   
+    #check the elements that are less than pivot and if less than pivot increment i and swap with the current index element that is less
+    
+    # and at last swap the pivot with next index of the element that is smaller.
+
+    #enduku ante manam pivot return cheyali pivot kanna left lo unna values anni less than pivot untai and right side anni greater 
+    
+    #we need to return i+1 as pivot,because ith index lo pivot kanna takkuva unna last index value untadi.
+  
     
     
     def partition(self,array,low,high):
