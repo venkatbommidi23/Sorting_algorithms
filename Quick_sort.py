@@ -11,7 +11,7 @@
 class Solution:
     def quickSort(self,arr,low,high):
         # If low < high, it means array has more than one element
-        if(low<high):
+        if(low<high):  # or We can right (low<=high) return and write code in next lines both works.
             
             # Partition the array and get pivot index
             # After partition:
